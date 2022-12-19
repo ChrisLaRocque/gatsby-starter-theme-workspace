@@ -3,5 +3,3 @@ Starting point for developing a Gatsby theme/source plugin/transformer plugin. U
 
 ## Getting started
 Uses Node v18.
-
-1. 
