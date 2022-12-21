@@ -5,8 +5,8 @@
   "main": "./dist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel gatsby-node.ts -d ./ --extensions .ts",
-    "develop": "babel gatsby-node.ts -d ./ --extensions .ts --watch"
+    "build": "babel ./ -d ./ --extensions .ts",
+    "develop": "babel ./ -d ./ --extensions .ts --watch"
   },
   "keywords": [
     "gatsby",
