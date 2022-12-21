@@ -1,3 +1,9 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.onPreInit = void 0;
 /**
  * Implement Gatsby's Node APIs in this file.
  *
@@ -11,6 +17,8 @@
  *
  * See: https://www.gatsbyjs.com/docs/creating-a-local-plugin/#developing-a-local-plugin-that-is-outside-your-project
  */
-export const onPreInit = ({
-  reporter
-}) => reporter.info("Loaded theme");
+var onPreInit = function onPreInit(_ref) {
+  var reporter = _ref.reporter;
+  return reporter.info("Loaded theme");
+};
+exports.onPreInit = onPreInit;
