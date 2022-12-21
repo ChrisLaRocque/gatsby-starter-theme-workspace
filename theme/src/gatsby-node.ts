@@ -1,3 +1,5 @@
+import type { GatsbyNode } from "gatsby"
+
 /**
  * Implement Gatsby's Node APIs in this file.
  *
@@ -11,4 +13,4 @@
  *
  * See: https://www.gatsbyjs.com/docs/creating-a-local-plugin/#developing-a-local-plugin-that-is-outside-your-project
  */
-exports.onPreInit = ({reporter}) => reporter.info("Loaded theme")
+export const onPreInit: GatsbyNode["onPreInit"] = ({reporter}) => reporter.info("Loaded theme")
